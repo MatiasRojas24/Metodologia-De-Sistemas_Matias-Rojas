@@ -1,0 +1,36 @@
+.containerCard{
+    width:100%;
+    background-color: #f7e8dc;
+    border-radius: .4rem;
+    padding: .4rem;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2px 2px 2px 2px #d3b190;
+}
+.actionsCard{
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* Botones */
+.botonEditar{
+    color: #07aa07;
+    transition: text-shadow 1s ease-in-out, transform .5s;
+}
+.botonEliminar{
+    color: red;
+    transition: text-shadow 1s ease-in-out, transform .5s;
+}
+.botonEditar:hover{
+    text-shadow:0 0 5px #57ff57, 0 0 10px #57ff57, 0 0 15px #57ff57;
+}
+.botonEliminar:hover{
+    text-shadow:0 0 5px red, 0 0 10px red, 0 0 15px red;
+}
+.actionsCard span:hover{
+    cursor: pointer;
+    transform:scale(1.1)
+}

@@ -1,0 +1,66 @@
+.containerPrincipalModal{
+    position:absolute;
+    top:0;
+    left:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: brightness(90%) blur(2px);
+}
+.contentPopUP{
+    background-color: #e8c39e;
+    box-shadow: 5px 2px 10px #585858;
+    width: 35vw;
+    padding: 1rem;
+    border-radius: .4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-around;
+}
+.formContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 1rem;
+
+}
+.formContent input, textarea{
+    width: 100%;
+    padding: .3rem;
+    resize: none;
+    margin: 0.4rem 0;
+    background-color: #fff6ed;
+    border: none;
+    border-radius: 5px;
+    caret-color: #e8c39e;
+}
+.formContent input:focus, textarea:focus{
+    outline-style: dashed;
+    outline-offset: 1px;
+    outline-color: #fff6ed;
+}
+.buttonCard{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.buttonCard button{
+    border: none;
+    border-radius: 5px;
+    background-color: #fff6ed;
+    padding: 5px;
+    transition: .5s ease-in-out;
+}
+.buttonCard button:hover{
+    cursor: pointer;
+}
+.botonCancelar:hover{
+    box-shadow: 0px 0px 10px 1px red;
+}
+.botonSubmit:hover{
+    box-shadow: 0px 0px 10px 1px green;
+}
