@@ -1,0 +1,23 @@
+.containerCursos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 2rem;
+}
+.containerTarjeta {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd;
+    background: #f9f9f9;
+    border-radius: 8px;
+    transition: scale .5s, background-color .5s;
+}
+.containerTarjeta:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #e0e0e0;
+}
