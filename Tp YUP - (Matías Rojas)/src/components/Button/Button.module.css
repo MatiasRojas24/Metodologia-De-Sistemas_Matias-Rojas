@@ -1,0 +1,27 @@
+.button {
+    width: 40%;
+    background-color: rgb(35, 117, 211);
+    color: white;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: ease-in-out 0.3s;
+}
+.button:hover {
+    cursor: pointer;
+    transform: translateY(-3px);
+    background-color: rgb(67, 146, 236);
+}
+
+.button:disabled:hover {
+    cursor: not-allowed;
+    transform: none; 
+    background-color: gray; 
+}
+    
+.button:disabled {
+    background-color: gray;
+    color: darkgray;
+    cursor: not-allowed;
+}

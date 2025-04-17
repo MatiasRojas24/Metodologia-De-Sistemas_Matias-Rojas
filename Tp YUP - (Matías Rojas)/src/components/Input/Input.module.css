@@ -1,0 +1,54 @@
+.containerInput {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  gap: 5px;
+  width: 100%;
+}
+.containerInput input {
+  width: 100%;
+  font-size: 14px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 50%);
+  padding: 3px;
+}
+
+@keyframes rotate-gradient {
+  0% {
+    background-position: 200% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.inputWrapper {
+  padding: 2px;
+  border-radius: 8px;
+  display: inline-block;
+  background: transparent;
+}
+
+.inputWrapper:focus-within {
+  background: linear-gradient(143deg, rgb(73, 157, 252) 0%, rgb(160, 5, 221) 50%, rgb(112, 1, 156) 100%);
+  background-size: 200% 200%;
+  animation: rotate-gradient 3s linear infinite;
+}
+
+.gradientInput {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 6px;
+  background: white;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.errorText {
+  position: absolute;
+  transform: translateY(65px);
+  color: red;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}

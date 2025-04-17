@@ -1,0 +1,9 @@
+.containerApp {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #600aab;
+  background: linear-gradient(143deg, rgba(96, 10, 171, 1) 0%, rgba(64, 10, 201, 1) 50%, rgba(10, 20, 201, 1) 100%);
+}
